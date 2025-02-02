@@ -9,13 +9,37 @@
 /* Begin PBXBuildFile section */
 		3B81CF1E2D4E330B005C2EF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B81CF172D4E330B005C2EF7 /* Preview Assets.xcassets */; };
 		3B81CF1F2D4E330B005C2EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B81CF192D4E330B005C2EF7 /* Assets.xcassets */; };
-		3B81CF202D4E330B005C2EF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF1A2D4E330B005C2EF7 /* ContentView.swift */; };
-		3B81CF212D4E330B005C2EF7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF1B2D4E330B005C2EF7 /* Item.swift */; };
 		3B81CF222D4E330B005C2EF7 /* TransactionsSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF1C2D4E330B005C2EF7 /* TransactionsSampleApp.swift */; };
-		3B81CF252D4E3313005C2EF7 /* TransactionsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF232D4E3313005C2EF7 /* TransactionsSampleTests.swift */; };
 		3B81CF292D4E3314005C2EF7 /* TransactionsSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF262D4E3314005C2EF7 /* TransactionsSampleUITests.swift */; };
 		3B81CF2A2D4E3314005C2EF7 /* TransactionsSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF272D4E3314005C2EF7 /* TransactionsSampleUITestsLaunchTests.swift */; };
 		3B81CF2C2D4E3324005C2EF7 /* mockdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B81CF2B2D4E3324005C2EF7 /* mockdata.json */; };
+		3B81CF352D4E3543005C2EF7 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 3B81CF342D4E3543005C2EF7 /* Swinject */; };
+		3B81CF382D4E3572005C2EF7 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 3B81CF372D4E3572005C2EF7 /* ComposableArchitecture */; };
+		3B81CF3A2D4E36F6005C2EF7 /* TransactionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF392D4E36E1005C2EF7 /* TransactionRepository.swift */; };
+		3B81CF3E2D4E3BB1005C2EF7 /* TransactionRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF3D2D4E3BAE005C2EF7 /* TransactionRepositoryImpl.swift */; };
+		3B81CF402D4E3C85005C2EF7 /* TransactionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF3F2D4E3C77005C2EF7 /* TransactionItem.swift */; };
+		3B81CF432D4E3CA9005C2EF7 /* JsonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF422D4E3CA5005C2EF7 /* JsonLoader.swift */; };
+		3B81CF452D4E3D49005C2EF7 /* FetchTransactionListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF442D4E3D35005C2EF7 /* FetchTransactionListUseCase.swift */; };
+		3B81CF472D4E3EF6005C2EF7 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF462D4E3EF1005C2EF7 /* ServiceError.swift */; };
+		3B81CF4E2D4E3FDB005C2EF7 /* UseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF4D2D4E3FCE005C2EF7 /* UseCaseTests.swift */; };
+		3B81CF532D4E43FC005C2EF7 /* mockdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B81CF2B2D4E3324005C2EF7 /* mockdata.json */; };
+		3B81CF552D4E46F3005C2EF7 /* DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF542D4E46F2005C2EF7 /* DependencyInjector.swift */; };
+		3B81CF572D4E4708005C2EF7 /* DomainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF562D4E4707005C2EF7 /* DomainAssembly.swift */; };
+		3B81CF592D4E4711005C2EF7 /* DataAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF582D4E4710005C2EF7 /* DataAssembly.swift */; };
+		3B81CF5B2D4E47E1005C2EF7 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF5A2D4E47DD005C2EF7 /* AppAssembly.swift */; };
+		3B81CF5D2D4E4941005C2EF7 /* TransactionFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF5C2D4E493E005C2EF7 /* TransactionFeature.swift */; };
+		3B81CF5F2D4F2D52005C2EF7 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF5E2D4F2D4F005C2EF7 /* TransactionView.swift */; };
+		3B81CF612D4F2D5B005C2EF7 /* TransactionChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF602D4F2D5A005C2EF7 /* TransactionChartView.swift */; };
+		3B81CF632D4F2D66005C2EF7 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF622D4F2D64005C2EF7 /* TransactionListView.swift */; };
+		3B81CF662D4F2E5C005C2EF7 /* TransactionDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF652D4F2E5A005C2EF7 /* TransactionDTO.swift */; };
+		3B81CF682D4F33AB005C2EF7 /* PresentaionAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF672D4F33A0005C2EF7 /* PresentaionAssembly.swift */; };
+		3B81CF6A2D4F3528005C2EF7 /* TransactionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF692D4F3524005C2EF7 /* TransactionHeaderView.swift */; };
+		3B81CF6C2D4F354C005C2EF7 /* TransactionTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF6B2D4F3541005C2EF7 /* TransactionTabView.swift */; };
+		3B81CF6E2D4F3A2C005C2EF7 /* TransactionBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF6D2D4F3A2B005C2EF7 /* TransactionBottomView.swift */; };
+		3B81CF722D4F460C005C2EF7 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF712D4F4608005C2EF7 /* Color+.swift */; };
+		3B81CF742D4F4874005C2EF7 /* TransactionChartContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF732D4F4873005C2EF7 /* TransactionChartContentView.swift */; };
+		3B81CF762D4F516F005C2EF7 /* RecentTransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B81CF752D4F5169005C2EF7 /* RecentTransactionsView.swift */; };
+		3B81CF792D4F6890005C2EF7 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 3B81CF782D4F6890005C2EF7 /* DGCharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +65,33 @@
 		3B81CF042D4E32B4005C2EF7 /* TransactionsSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransactionsSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B81CF172D4E330B005C2EF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B81CF192D4E330B005C2EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3B81CF1A2D4E330B005C2EF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3B81CF1B2D4E330B005C2EF7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		3B81CF1C2D4E330B005C2EF7 /* TransactionsSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsSampleApp.swift; sourceTree = "<group>"; };
-		3B81CF232D4E3313005C2EF7 /* TransactionsSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsSampleTests.swift; sourceTree = "<group>"; };
 		3B81CF262D4E3314005C2EF7 /* TransactionsSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsSampleUITests.swift; sourceTree = "<group>"; };
 		3B81CF272D4E3314005C2EF7 /* TransactionsSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3B81CF2B2D4E3324005C2EF7 /* mockdata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mockdata.json; sourceTree = "<group>"; };
+		3B81CF392D4E36E1005C2EF7 /* TransactionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRepository.swift; sourceTree = "<group>"; };
+		3B81CF3D2D4E3BAE005C2EF7 /* TransactionRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRepositoryImpl.swift; sourceTree = "<group>"; };
+		3B81CF3F2D4E3C77005C2EF7 /* TransactionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItem.swift; sourceTree = "<group>"; };
+		3B81CF422D4E3CA5005C2EF7 /* JsonLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonLoader.swift; sourceTree = "<group>"; };
+		3B81CF442D4E3D35005C2EF7 /* FetchTransactionListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTransactionListUseCase.swift; sourceTree = "<group>"; };
+		3B81CF462D4E3EF1005C2EF7 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		3B81CF4D2D4E3FCE005C2EF7 /* UseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseTests.swift; sourceTree = "<group>"; };
+		3B81CF542D4E46F2005C2EF7 /* DependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjector.swift; sourceTree = "<group>"; };
+		3B81CF562D4E4707005C2EF7 /* DomainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainAssembly.swift; sourceTree = "<group>"; };
+		3B81CF582D4E4710005C2EF7 /* DataAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAssembly.swift; sourceTree = "<group>"; };
+		3B81CF5A2D4E47DD005C2EF7 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
+		3B81CF5C2D4E493E005C2EF7 /* TransactionFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionFeature.swift; sourceTree = "<group>"; };
+		3B81CF5E2D4F2D4F005C2EF7 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		3B81CF602D4F2D5A005C2EF7 /* TransactionChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionChartView.swift; sourceTree = "<group>"; };
+		3B81CF622D4F2D64005C2EF7 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		3B81CF652D4F2E5A005C2EF7 /* TransactionDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDTO.swift; sourceTree = "<group>"; };
+		3B81CF672D4F33A0005C2EF7 /* PresentaionAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentaionAssembly.swift; sourceTree = "<group>"; };
+		3B81CF692D4F3524005C2EF7 /* TransactionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHeaderView.swift; sourceTree = "<group>"; };
+		3B81CF6B2D4F3541005C2EF7 /* TransactionTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTabView.swift; sourceTree = "<group>"; };
+		3B81CF6D2D4F3A2B005C2EF7 /* TransactionBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBottomView.swift; sourceTree = "<group>"; };
+		3B81CF712D4F4608005C2EF7 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		3B81CF732D4F4873005C2EF7 /* TransactionChartContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionChartContentView.swift; sourceTree = "<group>"; };
+		3B81CF752D4F5169005C2EF7 /* RecentTransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +99,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B81CF382D4E3572005C2EF7 /* ComposableArchitecture in Frameworks */,
+				3B81CF792D4F6890005C2EF7 /* DGCharts in Frameworks */,
+				3B81CF352D4E3543005C2EF7 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,12 +153,14 @@
 		3B81CF1D2D4E330B005C2EF7 /* TransactionsSample */ = {
 			isa = PBXGroup;
 			children = (
+				3B81CF2E2D4E34C4005C2EF7 /* Dependencies */,
+				3B81CF2F2D4E34CF005C2EF7 /* Applications */,
+				3B81CF6F2D4F45F3005C2EF7 /* Uitlls */,
+				3B81CF2D2D4E34A6005C2EF7 /* Resources */,
+				3B81CF322D4E34ED005C2EF7 /* Presentation */,
+				3B81CF312D4E34E9005C2EF7 /* Domain */,
+				3B81CF302D4E34E5005C2EF7 /* Data */,
 				3B81CF182D4E330B005C2EF7 /* Preview Content */,
-				3B81CF192D4E330B005C2EF7 /* Assets.xcassets */,
-				3B81CF1A2D4E330B005C2EF7 /* ContentView.swift */,
-				3B81CF1B2D4E330B005C2EF7 /* Item.swift */,
-				3B81CF2B2D4E3324005C2EF7 /* mockdata.json */,
-				3B81CF1C2D4E330B005C2EF7 /* TransactionsSampleApp.swift */,
 			);
 			path = TransactionsSample;
 			sourceTree = "<group>";
@@ -119,7 +168,7 @@
 		3B81CF242D4E3313005C2EF7 /* TransactionsSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				3B81CF232D4E3313005C2EF7 /* TransactionsSampleTests.swift */,
+				3B81CF4D2D4E3FCE005C2EF7 /* UseCaseTests.swift */,
 			);
 			path = TransactionsSampleTests;
 			sourceTree = "<group>";
@@ -131,6 +180,144 @@
 				3B81CF272D4E3314005C2EF7 /* TransactionsSampleUITestsLaunchTests.swift */,
 			);
 			path = TransactionsSampleUITests;
+			sourceTree = "<group>";
+		};
+		3B81CF2D2D4E34A6005C2EF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B81CF192D4E330B005C2EF7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B81CF2E2D4E34C4005C2EF7 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				3B81CF542D4E46F2005C2EF7 /* DependencyInjector.swift */,
+				3B81CF562D4E4707005C2EF7 /* DomainAssembly.swift */,
+				3B81CF582D4E4710005C2EF7 /* DataAssembly.swift */,
+				3B81CF672D4F33A0005C2EF7 /* PresentaionAssembly.swift */,
+				3B81CF5A2D4E47DD005C2EF7 /* AppAssembly.swift */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		3B81CF2F2D4E34CF005C2EF7 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				3B81CF1C2D4E330B005C2EF7 /* TransactionsSampleApp.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		3B81CF302D4E34E5005C2EF7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3B81CF642D4F2E52005C2EF7 /* DataTransfer */,
+				3B81CF522D4E4219005C2EF7 /* Mock */,
+				3B81CF4C2D4E3F38005C2EF7 /* DataSources */,
+				3B81CF4B2D4E3F2E005C2EF7 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3B81CF312D4E34E9005C2EF7 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				3B81CF4A2D4E3F1D005C2EF7 /* Interfaces */,
+				3B81CF492D4E3F12005C2EF7 /* UseCases */,
+				3B81CF482D4E3F0C005C2EF7 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		3B81CF322D4E34ED005C2EF7 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3B81CF5C2D4E493E005C2EF7 /* TransactionFeature.swift */,
+				3B81CF5E2D4F2D4F005C2EF7 /* TransactionView.swift */,
+				3B81CF692D4F3524005C2EF7 /* TransactionHeaderView.swift */,
+				3B81CF6B2D4F3541005C2EF7 /* TransactionTabView.swift */,
+				3B81CF602D4F2D5A005C2EF7 /* TransactionChartView.swift */,
+				3B81CF732D4F4873005C2EF7 /* TransactionChartContentView.swift */,
+				3B81CF752D4F5169005C2EF7 /* RecentTransactionsView.swift */,
+				3B81CF622D4F2D64005C2EF7 /* TransactionListView.swift */,
+				3B81CF6D2D4F3A2B005C2EF7 /* TransactionBottomView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3B81CF482D4E3F0C005C2EF7 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				3B81CF462D4E3EF1005C2EF7 /* ServiceError.swift */,
+				3B81CF3F2D4E3C77005C2EF7 /* TransactionItem.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		3B81CF492D4E3F12005C2EF7 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				3B81CF442D4E3D35005C2EF7 /* FetchTransactionListUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		3B81CF4A2D4E3F1D005C2EF7 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				3B81CF392D4E36E1005C2EF7 /* TransactionRepository.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		3B81CF4B2D4E3F2E005C2EF7 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				3B81CF3D2D4E3BAE005C2EF7 /* TransactionRepositoryImpl.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		3B81CF4C2D4E3F38005C2EF7 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				3B81CF422D4E3CA5005C2EF7 /* JsonLoader.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		3B81CF522D4E4219005C2EF7 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				3B81CF2B2D4E3324005C2EF7 /* mockdata.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		3B81CF642D4F2E52005C2EF7 /* DataTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				3B81CF652D4F2E5A005C2EF7 /* TransactionDTO.swift */,
+			);
+			path = DataTransfer;
+			sourceTree = "<group>";
+		};
+		3B81CF6F2D4F45F3005C2EF7 /* Uitlls */ = {
+			isa = PBXGroup;
+			children = (
+				3B81CF702D4F45FD005C2EF7 /* Extension */,
+			);
+			path = Uitlls;
+			sourceTree = "<group>";
+		};
+		3B81CF702D4F45FD005C2EF7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B81CF712D4F4608005C2EF7 /* Color+.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +337,9 @@
 			);
 			name = TransactionsSample;
 			packageProductDependencies = (
+				3B81CF342D4E3543005C2EF7 /* Swinject */,
+				3B81CF372D4E3572005C2EF7 /* ComposableArchitecture */,
+				3B81CF782D4F6890005C2EF7 /* DGCharts */,
 			);
 			productName = TransactionsSample;
 			productReference = 3B81CEE82D4E32B3005C2EF7 /* TransactionsSample.app */;
@@ -227,6 +417,11 @@
 			);
 			mainGroup = 3B81CEDF2D4E32B3005C2EF7;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3B81CF332D4E3543005C2EF7 /* XCRemoteSwiftPackageReference "Swinject" */,
+				3B81CF362D4E3572005C2EF7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				3B81CF772D4F6890005C2EF7 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3B81CEE92D4E32B3005C2EF7 /* Products */;
 			projectDirPath = "";
@@ -254,6 +449,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B81CF532D4E43FC005C2EF7 /* mockdata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +467,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B81CF202D4E330B005C2EF7 /* ContentView.swift in Sources */,
-				3B81CF212D4E330B005C2EF7 /* Item.swift in Sources */,
+				3B81CF762D4F516F005C2EF7 /* RecentTransactionsView.swift in Sources */,
+				3B81CF472D4E3EF6005C2EF7 /* ServiceError.swift in Sources */,
+				3B81CF722D4F460C005C2EF7 /* Color+.swift in Sources */,
+				3B81CF6C2D4F354C005C2EF7 /* TransactionTabView.swift in Sources */,
+				3B81CF5F2D4F2D52005C2EF7 /* TransactionView.swift in Sources */,
+				3B81CF452D4E3D49005C2EF7 /* FetchTransactionListUseCase.swift in Sources */,
+				3B81CF402D4E3C85005C2EF7 /* TransactionItem.swift in Sources */,
+				3B81CF552D4E46F3005C2EF7 /* DependencyInjector.swift in Sources */,
+				3B81CF3E2D4E3BB1005C2EF7 /* TransactionRepositoryImpl.swift in Sources */,
+				3B81CF5B2D4E47E1005C2EF7 /* AppAssembly.swift in Sources */,
+				3B81CF612D4F2D5B005C2EF7 /* TransactionChartView.swift in Sources */,
+				3B81CF682D4F33AB005C2EF7 /* PresentaionAssembly.swift in Sources */,
+				3B81CF6A2D4F3528005C2EF7 /* TransactionHeaderView.swift in Sources */,
+				3B81CF5D2D4E4941005C2EF7 /* TransactionFeature.swift in Sources */,
+				3B81CF6E2D4F3A2C005C2EF7 /* TransactionBottomView.swift in Sources */,
+				3B81CF662D4F2E5C005C2EF7 /* TransactionDTO.swift in Sources */,
+				3B81CF592D4E4711005C2EF7 /* DataAssembly.swift in Sources */,
+				3B81CF3A2D4E36F6005C2EF7 /* TransactionRepository.swift in Sources */,
+				3B81CF632D4F2D66005C2EF7 /* TransactionListView.swift in Sources */,
+				3B81CF572D4E4708005C2EF7 /* DomainAssembly.swift in Sources */,
+				3B81CF432D4E3CA9005C2EF7 /* JsonLoader.swift in Sources */,
 				3B81CF222D4E330B005C2EF7 /* TransactionsSampleApp.swift in Sources */,
+				3B81CF742D4F4874005C2EF7 /* TransactionChartContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +497,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B81CF252D4E3313005C2EF7 /* TransactionsSampleTests.swift in Sources */,
+				3B81CF4E2D4E3FDB005C2EF7 /* UseCaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +815,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B81CF332D4E3543005C2EF7 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
+		3B81CF362D4E3572005C2EF7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.17.1;
+			};
+		};
+		3B81CF772D4F6890005C2EF7 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ChartsOrg/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B81CF342D4E3543005C2EF7 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B81CF332D4E3543005C2EF7 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		3B81CF372D4E3572005C2EF7 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B81CF362D4E3572005C2EF7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		3B81CF782D4F6890005C2EF7 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B81CF772D4F6890005C2EF7 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3B81CEE02D4E32B3005C2EF7 /* Project object */;
 }
